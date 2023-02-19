@@ -1,0 +1,31 @@
+{
+  "include": ["src", "vite.config.ts"],
+
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"]
+    },
+
+    "noEmit": true,
+    "strict": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "esModuleInterop": false,
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+    "noUncheckedIndexedAccess": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
